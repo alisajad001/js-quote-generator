@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Mono";
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+}
+
+#quote-container {
+  background-color: #333;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+#site-title {
+  color: #45a049;
+  text-align: center;
+  font-weight: 700;
+}
+
+#quote-counter {
+  color: #45a049;
+  text-shadow: 0 0 10px #45a049;
+}
+
+#quote-text {
+  font-size: 18px;
+  margin: 1rem 0;
+  line-height: 1.6;
+  color: #d8d8d8;
+}
+
+#quote-author {
+  font-size: 16px;
+  color: #45a049;
+}
+
+#generate-btn {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 0;
+  font-size: 18px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+  margin-top: 3rem;
+}
+
+#generate-btn:hover {
+  box-shadow: 0 0 20px #45a04975;
+}
+
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
